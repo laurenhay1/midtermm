@@ -28,7 +28,11 @@ import { GraphicDesignComponent } from './graphic-design/graphic-design.componen
       { path: 'products/:productId', component: ProductDetailsComponent },
       { path: 'resume', component: MyResumeComponent },
       { path: 'cart', component: CartComponent },
-      { path: 'shipping', component: ShippingComponent }
+      { path: 'shipping', component: ShippingComponent },
+      { path: 'graphic', component: GraphicDesignComponent },
+
+      
+
     ])
   ],
   declarations: [

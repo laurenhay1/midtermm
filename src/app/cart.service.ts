@@ -20,8 +20,14 @@ export class CartService {
   }
 
 getShippingPrices() {
-    return this.http.get('/assets/shipping.json');
+    return this.http.get('/assets/shipping.json'); 
   }
+
+  getGraphicDesignPortfolio() {
+    return this.http.get('/assets/graphic.json');
+  }
+
+  
   constructor(
   private http: HttpClient
   ) { }

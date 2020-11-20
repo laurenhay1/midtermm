@@ -83,8 +83,8 @@ export const r1 = {
   },
   
   
-  "workExperience":[],
-  "education": []
+  "workExperience":[]
+  
 }
 /*
 Copyright Google LLC. All Rights Reserved.

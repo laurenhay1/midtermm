@@ -21,6 +21,7 @@ import { ResumeWorkExperienceComponent } from './resume-work-experience/resume-w
     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
       { path: 'products/:productId', component: ProductDetailsComponent },
+      { path: 'resume', component: MyResumeComponent }
     ])
   ],
   declarations: [
